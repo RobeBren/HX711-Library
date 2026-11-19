@@ -102,7 +102,7 @@ float BR_HX711::calculateAverageWeight(uint8_t samples) {
         return NAN;
     }
 
-    int64_t rawDataSum;
+    int64_t rawDataSum = 0;
 
     for (uint8_t i = 0; i < samples; i++) {
         rawDataSum += readRawData();
