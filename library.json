@@ -1,0 +1,7 @@
+{
+    "name": "BR_HX711-Library",
+    "version": "1.0.0",
+    "description": "C++ driver for the HX711 24-bit ADC",
+    "frameworks": ["arduino"],
+    "platforms": "*"
+}
